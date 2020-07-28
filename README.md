@@ -5,6 +5,20 @@ This role helps to install minikube on your linux machine.
 
 ![CI](https://github.com/amine7777/install_minikube/workflows/CI/badge.svg?branch=master)
 
+
+
+
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/amine7777/install_minikube.svg?branch=master)](https://travis-ci.com/amine7777/install_minikube)|[![github](https://github.com/amine7777/install_minikube/workflows/Ansible%20Molecule/badge.svg)](https://github.com/amine7777/install_minikube/actions)|[![quality](https://img.shields.io/ansible/quality/677459)](https://galaxy.ansible.com/amine7777/minikube)|[![downloads](https://img.shields.io/ansible/role/d/677459)](https://galaxy.ansible.com/amine7777/minikube)|[![Version](https://img.shields.io/github/release/amine7777/install_minikube.svg)](https://github.com/amine7777/install_minikube/releases/)|
+
+
+
+
+
+
+
+
 Requirements
 ------------
 - Linux machine
