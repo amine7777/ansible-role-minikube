@@ -1,7 +1,7 @@
 Minikube
 =========
 
-The role helps to install minikube on your linux machine.
+This role helps to install minikube on your linux machine.
 
 Requirements
 ------------
