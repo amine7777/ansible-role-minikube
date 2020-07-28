@@ -1,0 +1,25 @@
+---
+# tasks file for install_minikube
+- name: Download minikube
+  get_url:
+    url: "{{ minikube_download_url }}"
+    dest: /tmp/minikube
+    mode: '0644'
+
+- name: Create bin folder
+  file:
+    path: '{{ minikube_dir_path }}'
+    state: directory
+
+- name: install minikube
+  command: install /tmp/minikube '{{ minikube_dir_path }}'
+  changed_when: false
+
+- name: Check minikube
+  command: minikube version
+  changed_when: false
+  register: check_minikube
+
+- name: Display minikube version
+  debug:
+    msg: '{{ check_minikube.stdout_lines }}'
