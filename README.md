@@ -1,4 +1,4 @@
-Minikube
+Ansible role: Minikube
 =========
 
 This role helps to install minikube on your linux machine.
