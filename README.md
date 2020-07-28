@@ -2,8 +2,7 @@ Minikube
 =========
 
 This role helps to install minikube on your linux machine.
-![ci.yml](https://github.com/actions/install_minikube/workflows/Greet%20Everyone/badge.svg)
-
+[![Actions Status](https://github.com/amine7777/install_minikube/workflows/ci.yml/badge.svg](https://github.com/amine7777/install_minikube/actions)
 Requirements
 ------------
 - Linux machine
