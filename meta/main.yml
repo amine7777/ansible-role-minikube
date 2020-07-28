@@ -1,6 +1,7 @@
 galaxy_info:
   author: Amine Kahlaoui
-  description: DevOps Engineer
+  role_name: minikube
+  description: This role helps you to install minikube easly.
   company: https:www.cf2a.tv
 
   # If the issue tracker for your role is not on github, uncomment the
