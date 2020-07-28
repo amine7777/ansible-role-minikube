@@ -2,7 +2,7 @@ Minikube
 =========
 
 This role helps to install minikube on your linux machine.
-
+![status](https://github.com/amine7777/install_minikube/workflows/ci.yml/badge.svg)
 Requirements
 ------------
 - Linux machine
