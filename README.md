@@ -1,7 +1,7 @@
 Minikube
 =========
 
-The role install minikube on your linux machine
+The role helps to install minikube on your linux machine.
 
 Requirements
 ------------
@@ -32,3 +32,4 @@ Author Information
 ------------------
 
 - [Amine Kahlaoui](https://github.com/amine7777), DevOps engineer.
+to
