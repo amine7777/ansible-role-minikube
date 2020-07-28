@@ -2,8 +2,8 @@ Minikube
 =========
 
 This role helps to install minikube on your linux machine.
-![badge](https://action-badges.now.sh/amine7777/install_minikube)
-[![Actions Status](https://github.com/amine7777/install_minikube/workflows/ci/badge.svg)](https://github.com/amine7777/install_minikube/actions)
+
+![CI](https://github.com/amine7777/install_minikube/workflows/CI/badge.svg?branch=master)
 
 Requirements
 ------------
