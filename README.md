@@ -12,21 +12,27 @@ Role Variables
 --------------
 These variables helps to manage minikube installation.
 
+You can specify your minikube version in this variable.
 ```yaml
 minikube_version: latest
-minikube_download_url: https://storage.googleapis.com/minikube/releases/{{ minikube_version }}/minikube-linux-amd64
-minikube_dir_path:  /usr/local/bin
+```
+This is the url where minikube will be downloaded.
+```ỳaml
+minikube_download_url: "https://storage.googleapis.com/minikube/releases/{{ minikube_version }}/minikube-linux-amd64"
+```
+This is the path where minikube binary will be stored.
+```yaml
+minikube_dir_path: /usr/local/bin
 ```
 
 Example Playbook
 ----------------
 
-
-
-    - hosts: all
-      roles:
-         - { role: amine7777.minikube }
-
+```yaml
+- hosts: all
+  roles:
+     - amine7777.minikube
+```
 
 Author Information
 ------------------
