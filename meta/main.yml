@@ -3,7 +3,7 @@ dependencies: []
 galaxy_info:
   author: Amine Kahlaoui
   role_name: minikube
-  description: Minikube runs a single-node Kubernetes cluster inside a Virtual Machine (VM).
+  description: This role installs Minikube on your linux machine.Minikube runs a single-node Kubernetes cluster inside a VM.
   issue_tracker_url: https://github.com/amine7777/install_minikube/issues
   company: https://www.cf2a.tv
   license: Apache-2.0
