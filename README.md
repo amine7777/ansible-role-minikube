@@ -4,9 +4,9 @@ Ansible role: Minikube
 This role helps you to install minikube on your linux machine.
 
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/amine7777/ansible-role-minikube.svg?branch=master)](https://travis-ci.com/amine7777/ansible-role-minikube)|[![github](https://github.com/amine7777/ansible-role-minikube/workflows/CI/badge.svg)](https://github.com/amine7777/ansible-role-minikube/actions)|[![quality](https://img.shields.io/ansible/quality/49942)](https://galaxy.ansible.com/amine7777/minikube)|[![downloads](https://img.shields.io/ansible/role/d/49942)](https://galaxy.ansible.com/amine7777/minikube)|[![Version](https://img.shields.io/github/release/amine7777/ansible-role-minikube.svg)](https://github.com/amine7777/ansible-role-minikube/releases/)|
+|Travis|CircleCI|GitHub|Quality|Downloads|Version|
+|------|--------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/amine7777/ansible-role-minikube.svg?branch=master)](https://travis-ci.com/amine7777/ansible-role-minikube)||![circleci](https://circleci.com/gh/amine7777/ansible-role-terraform.svg?style=svg)|[![github](https://github.com/amine7777/ansible-role-minikube/workflows/CI/badge.svg)](https://github.com/amine7777/ansible-role-minikube/actions)|[![quality](https://img.shields.io/ansible/quality/49942)](https://galaxy.ansible.com/amine7777/minikube)|[![downloads](https://img.shields.io/ansible/role/d/49942)](https://galaxy.ansible.com/amine7777/minikube)|[![Version](https://img.shields.io/github/release/amine7777/ansible-role-minikube.svg)](https://github.com/amine7777/ansible-role-minikube/releases/)|
 
 ![](minikube.jpeg)
 Requirements
