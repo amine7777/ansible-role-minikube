@@ -23,7 +23,7 @@ You can specify your minikube version in this variable.
 minikube_version: latest
 ```
 This is the url where minikube will be downloaded.
-```ỳaml
+```yaml
 minikube_download_url: "https://storage.googleapis.com/minikube/releases/{{ minikube_version }}/minikube-linux-amd64"
 ```
 This is the path where minikube binary will be stored.
