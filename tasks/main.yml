@@ -6,10 +6,10 @@
     dest: /tmp/minikube
     mode: '0644'
 
-- name: Create bin folder
-  file:
-    path: '{{ minikube_dir_path }}'
-    state: directory
+# - name: Create bin folder
+#   file:
+#     path: '{{ minikube_dir_path }}'
+#     state: directory
 
 - name: install minikube
   command: install /tmp/minikube '{{ minikube_dir_path }}'
